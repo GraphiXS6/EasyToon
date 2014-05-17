@@ -1,0 +1,755 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Japonais resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\icon3.ico"
+IDR_EZTOONTYPE          ICON                    "res\\icon2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_TOOLBOX             BITMAP                  "res\\toolbar1.bmp"
+IDR_TB_PLAY             BITMAP                  "res\\bmp00001.bmp"
+IDR_TB_SELECT           BITMAP                  "res\\bmp00002.bmp"
+IDR_TB_MOVE             BITMAP                  "res\\bmp00003.bmp"
+IDR_TOOLBOX_EASY        BITMAP                  "res\\toolbox1.bmp"
+IDR_TB_BRUSH            BITMAP                  "res\\bmp00004.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  20, 18
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_FILE_EXPORTGIF
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    SEPARATOR
+    BUTTON      ID_FRAME_PREV
+    BUTTON      32773
+    SEPARATOR
+    BUTTON      ID_VIEW_PLAY
+    SEPARATOR
+    BUTTON      ID_FRAME_INSERT
+    BUTTON      ID_FRAME_DELETE
+    BUTTON      ID_FRAME_CLEAR
+    SEPARATOR
+    BUTTON      IDC_FRAMEINTCAP
+    BUTTON      IDC_FRAMEINTEDIT
+    SEPARATOR
+    BUTTON      ID_DRAW_PREVFRAME
+    BUTTON      ID_DRAW_NEXTFRAME
+    SEPARATOR
+    BUTTON      IDC_VIEW_ZOOMCAP
+    BUTTON      IDC_VIEW_ZOOMEDIT
+END
+
+IDR_TOOLBOX TOOLBAR  20, 18
+BEGIN
+    BUTTON      ID_TOOL_SELECT
+    BUTTON      ID_TOOL_PEN
+    BUTTON      ID_TOOL_FILL
+    BUTTON      ID_TOOL_LINE
+    BUTTON      ID_TOOL_LINESTRIP
+    SEPARATOR
+    BUTTON      ID_TOOL_PARALINE
+    BUTTON      ID_TOOL_RECT
+    BUTTON      ID_TOOL_FILLRECT
+    BUTTON      ID_TOOL_ELLIPSE
+    BUTTON      ID_TOOL_FILLELLIPSE
+    BUTTON      ID_TEXT
+    SEPARATOR
+    BUTTON      IDC_PENSIZECAP
+    BUTTON      IDC_PENSIZEEDIT
+    SEPARATOR
+    BUTTON      IDC_ERASESIZECAP
+    BUTTON      IDC_ERASESIZEEDIT
+    SEPARATOR
+    BUTTON      ID_SWAP_COLOR
+    SEPARATOR
+    BUTTON      ID_MASKCOPY
+END
+
+IDR_TB_PLAY TOOLBAR  20, 18
+BEGIN
+    BUTTON      ID_VIEW_PLAY
+    SEPARATOR
+    BUTTON      IDC_VIEW_PLAYSEGCAP
+    BUTTON      IDC_VIEW_PLAYSTARTEDIT
+    SEPARATOR
+    BUTTON      ID_VIEW_PLAYSEG
+    SEPARATOR
+    BUTTON      IDC_VIEW_PLAYENDEDIT
+END
+
+IDR_TB_SELECT TOOLBAR  20, 18
+BEGIN
+    BUTTON      ID_TBSELECT_SCALEFREE
+    BUTTON      ID_TBSELECT_SCALEFIX
+    BUTTON      ID_TBSELECT_ROTATE
+    BUTTON      ID_TBSELECT_FREE
+    SEPARATOR
+    BUTTON      ID_TBSELECT_FLIP_HORIZONTAL
+    BUTTON      ID_TBSELECT_FLIP_VERTICAL
+    SEPARATOR
+    BUTTON      ID_TBSELECT_NEGATIF
+END
+
+IDR_TB_MOVE TOOLBAR  20, 18
+BEGIN
+    BUTTON      ID_MOVE_START
+    BUTTON      ID_MOVE_PREV10
+    BUTTON      ID_MOVE_PREV1
+    BUTTON      ID_MOVE_NEXT1
+    BUTTON      ID_MOVE_NEXT10
+    BUTTON      ID_MOVE_END
+END
+
+IDR_TOOLBOX_EASY TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_TOOL_SELECT
+    BUTTON      ID_TOOL_PEN
+    BUTTON      ID_TOOL_FILL
+    BUTTON      ID_TOOL_LINE
+    BUTTON      ID_TOOL_RECT
+    BUTTON      ID_TOOL_FILLRECT
+    BUTTON      ID_TOOL_ELLIPSE
+    BUTTON      ID_TOOL_FILLELLIPSE
+    SEPARATOR
+    BUTTON      IDC_PENSIZECAP
+    BUTTON      IDC_PENSIZEEDIT
+    SEPARATOR
+    BUTTON      IDC_ERASESIZECAP
+    BUTTON      IDC_ERASESIZEEDIT
+    SEPARATOR
+    BUTTON      ID_SWAP_COLOR
+    SEPARATOR
+    BUTTON      ID_TOOL_PARALINE
+END
+
+IDR_TB_BRUSH TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_BRUSH_PT0
+    BUTTON      ID_BRUSH_PT1
+    BUTTON      ID_BRUSH_PT2
+    BUTTON      ID_BRUSH_PT3
+    BUTTON      ID_BRUSH_PT4
+    BUTTON      ID_BRUSH_PT5
+    BUTTON      ID_BRUSH_PT6
+    BUTTON      ID_BRUSH_PT7
+    BUTTON      ID_BRUSH_PT8
+    BUTTON      ID_BRUSH_PT9
+    BUTTON      ID_BRUSH_PT10
+    BUTTON      ID_BRUSH_PT11
+    BUTTON      ID_BRUSH_PT12
+    BUTTON      ID_BRUSH_PT13
+    BUTTON      ID_BRUSH_PT14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "????(&F)"
+    BEGIN
+        MENUITEM "????(&N)\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "??(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "?????(&S)\tCtrl+S",           ID_FILE_SAVE
+        MENUITEM "????????(&A)...",             ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        POPUP "?????"
+        BEGIN
+            MENUITEM "ezt",                         ID_FILE_IMPORTEZT
+        END
+        POPUP "??????"
+        BEGIN
+            MENUITEM "GIF??????????(&G)...",        ID_FILE_EXPORTGIF
+            MENUITEM "??BMP?????????",              ID_FILE_EXPORTBMP
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "???????",                     ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "????????????(&X)",            ID_APP_EXIT
+    END
+    POPUP "??(&E)"
+    BEGIN
+        MENUITEM "????(&U)\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM "????(&R)\t Ctrl+Y",           ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "????(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "????(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "????(&P)\tCtrl+V",            ID_EDIT_PASTE
+        MENUITEM "??????????",                  ID_EDIT_PASTEFROMFILE
+    END
+    POPUP "????(&M)"
+    BEGIN
+        MENUITEM "??\tLeft",                    ID_FRAME_PREV
+        MENUITEM "??\tRight",                   ID_FRAME_NEXT
+        MENUITEM SEPARATOR
+        MENUITEM "????\tInser",                 ID_FRAME_INSERT
+        MENUITEM "??\tSuppr",                   ID_FRAME_DELETE
+        MENUITEM "???\tFin",                    ID_FRAME_CLEAR
+    END
+    POPUP "??(&V)"
+    BEGIN
+        MENUITEM "??? ???(&T)",                 ID_VIEW_TOOLBAR, CHECKED
+        MENUITEM "??? ?????(&B)",               ID_VIEW_TOOLBOX, CHECKED
+        MENUITEM "????? ???(&S)",               ID_VIEW_STATUS_BAR, CHECKED
+        MENUITEM "??????",                      ID_VIEW_NAVIGATION_BAR, CHECKED
+        MENUITEM "???????",                     ID_VIEW_FILLSTYLE_BAR, CHECKED
+        MENUITEM "????????????",                ID_VIEW_SELECTION_BAR, CHECKED
+        MENUITEM "?????????",                   ID_VIEW_ANIMATION_BAR, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "????(&O)...",                 ID_VIEW_OPTION
+        MENUITEM "???????(&P)...",              ID_VIEW_PROPERTY
+        MENUITEM "??(&P)...",                   ID_VIEW_PLAY
+    END
+    POPUP "????(&H)"
+    BEGIN
+        MENUITEM "????????? (&A)...",           ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_END,         ID_FRAME_CLEAR,         VIRTKEY, NOINVERT
+    VK_DELETE,      ID_FRAME_DELETE,        VIRTKEY, NOINVERT
+    VK_INSERT,      ID_FRAME_INSERT,        VIRTKEY, NOINVERT
+    VK_RIGHT,       ID_FRAME_NEXT,          VIRTKEY, NOINVERT
+    VK_LEFT,        ID_FRAME_PREV,          VIRTKEY, NOINVERT
+    VK_NUMPAD3,     ID_MASKCOPY,            VIRTKEY, NOINVERT
+    VK_HOME,        ID_SWAP_COLOR,          VIRTKEY, NOINVERT
+    VK_F11,         ID_TBSELECT_FLIP_HORIZONTAL, VIRTKEY, NOINVERT
+    VK_F12,         ID_TBSELECT_FLIP_VERTICAL, VIRTKEY, NOINVERT
+    "N",            ID_TBSELECT_NEGATIF,    VIRTKEY, NOINVERT
+    "T",            ID_TEXT,                VIRTKEY, NOINVERT
+    VK_F9,          ID_TOOL_ELLIPSE,        VIRTKEY, NOINVERT
+    VK_F3,          ID_TOOL_FILL,           VIRTKEY, NOINVERT
+    VK_F10,         ID_TOOL_FILLELLIPSE,    VIRTKEY, NOINVERT
+    VK_F8,          ID_TOOL_FILLRECT,       VIRTKEY, NOINVERT
+    VK_F4,          ID_TOOL_LINE,           VIRTKEY, NOINVERT
+    VK_F5,          ID_TOOL_LINESTRIP,      VIRTKEY, NOINVERT
+    VK_F6,          ID_TOOL_PARALINE,       VIRTKEY, NOINVERT
+    VK_F2,          ID_TOOL_PEN,            VIRTKEY, NOINVERT
+    VK_F7,          ID_TOOL_RECT,           VIRTKEY, NOINVERT
+    VK_F1,          ID_TOOL_SELECT,         VIRTKEY, NOINVERT
+    "-",            ID_DRAW_PREVFRAME,      ASCII,  NOINVERT
+    "+",            ID_DRAW_NEXTFRAME,      ASCII,  NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NEWOPTION DIALOGEX 0, 0, 155, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "??????????"
+FONT 9, "MS P????", 0, 0, 0x0
+BEGIN
+    LTEXT           "??(&H)",IDC_STATIC,16,40,33,8
+    EDITTEXT        IDC_EDIT_WIDTH,55,21,27,12,ES_AUTOHSCROLL
+    LTEXT           "?(&W)",IDC_STATIC,16,23,33,8
+    EDITTEXT        IDC_EDIT_HEIGHT,55,38,27,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,98,7,50,14
+    PUSHBUTTON      "?????",IDCANCEL,98,24,50,14
+    GROUPBOX        "?????????",IDC_STATIC,7,7,85,57
+END
+
+IDD_VIEWOPTION DIALOGEX 0, 0, 166, 45
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "????????"
+FONT 9, "MS P????", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,109,7,50,14
+    PUSHBUTTON      "?????",IDCANCEL,109,24,50,14
+    LTEXT           "Zoom:",IDC_STATIC,11,17,57,8
+    EDITTEXT        IDC_EDIT_ZOOM,72,16,24,12,ES_AUTOHSCROLL
+END
+
+IDD_ANIMPROPERTY DIALOGEX 0, 0, 209, 50
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "???????????????"
+FONT 9, "MS P????", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,152,7,50,14
+    PUSHBUTTON      "?????",IDCANCEL,152,25,50,14
+    LTEXT           "????????????????(&I)",IDC_STATIC,11,20,87,8
+    EDITTEXT        IDC_EDIT_DEFAULTDELAY,103,16,40,14,ES_AUTOHSCROLL
+END
+
+IDD_PLAY DIALOGEX 0, 0, 187, 159
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "??"
+FONT 9, "MS P????", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Close",ID_CLOSE,68,138,50,14
+    CONTROL         "",IDC_CANVAS,"Static",SS_BLACKFRAME | SS_SUNKEN,7,7,173,109
+    CONTROL         "",IDC_PROGRESS2,"msctls_progress32",WS_BORDER | 0x1,7,120,173,10
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 238, 164
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "?????????"
+FONT 9, "MS P????", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    LTEXT           "EasyToon Version 1.9.1 setagaya branch",IDC_STATIC,35,7,121,8,SS_NOPREFIX
+    LTEXT           "Copyright (C)",IDC_STATIC,63,18,44,8
+    DEFPUSHBUTTON   "OK",IDOK,69,125,46,14,WS_GROUP
+    PUSHBUTTON      "http://www.radiumsoftware.com",IDC_WEBBUTTON,69,58,120,14
+    LTEXT           "2001 IA-63 Itarium",IDC_STATIC,107,30,68,8
+    LTEXT           "1998 Keijiro Takahashi",IDC_STATIC,107,18,72,8
+    PUSHBUTTON      "http://www.F-Team.org/setagaya/",IDC_WEBBUTTON2,69,79,120,14
+    LTEXT           "Original",IDC_STATIC,6,61,27,8
+    LTEXT           "setagaya branch",IDC_STATIC,6,82,54,8
+    LTEXT           "EasyToon Version 1.9.5b Jp 2006",IDC_STATIC,127,40,110,8,SS_NOPREFIX
+    PUSHBUTTON      "http://www.flatd2d.info",IDC_WEBBUTTON3,69,101,120,14
+    LTEXT           "Flat2D",IDC_STATIC,6,103,54,8
+END
+
+61227 DIALOGEX 0, 0, 241, 114
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Type the text to insert"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,184,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,184,24,50,14
+    EDITTEXT        IDC_EDIT1,17,17,158,81,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,9,5,0
+ PRODUCTVERSION 1,9,5,0
+ FILEFLAGSMASK 0x1fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "EasyToon animator"
+            VALUE "CompanyName", "Radium Software Developments"
+            VALUE "FileDescription", "EasyToon"
+            VALUE "FileVersion", "1, 9, 5, b"
+            VALUE "InternalName", "EasyToon"
+            VALUE "LegalCopyright", "Copyright (C) 1998 Keijiro Takahashi"
+            VALUE "OriginalFilename", "EasyToon.EXE"
+            VALUE "ProductName", "EasyToon"
+            VALUE "ProductVersion", "1, 9, 5, b"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_NEWOPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 148
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_VIEWOPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_ANIMPROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_PLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    61227, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 108
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+61229                   CURSOR                  "res\\stylo.cur"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#endif\r\n"
+    "#include ""l.jpn\\afxres.rc""          // 標準のコンポーネント\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "EasyToon"
+    AFX_IDS_IDLEMESSAGE     "????"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "??"
+    ID_INDICATOR_REC        "??"
+    ID_INDICATOR_KANA       "??"
+    ID_INDICATOR_FRAME      "000/000"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "??????????\n??????"
+    ID_FILE_OPEN            "??????????\n??"
+    ID_FILE_CLOSE           "????????????\n???"
+    ID_FILE_SAVE            "???????????\n??"
+    ID_FILE_SAVE_AS         "?????????????????\n????????"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "?????????????\n?????????"
+    ID_APP_EXIT             "????????????????????????\n??"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "??????????"
+    ID_FILE_MRU_FILE2       "??????????"
+    ID_FILE_MRU_FILE3       "??????????"
+    ID_FILE_MRU_FILE4       "??????????"
+    ID_FILE_MRU_FILE5       "??????????"
+    ID_FILE_MRU_FILE6       "??????????"
+    ID_FILE_MRU_FILE7       "??????????"
+    ID_FILE_MRU_FILE8       "??????????"
+    ID_FILE_MRU_FILE9       "??????????"
+    ID_FILE_MRU_FILE10      "??????????"
+    ID_FILE_MRU_FILE11      "??????????"
+    ID_FILE_MRU_FILE12      "??????????"
+    ID_FILE_MRU_FILE13      "??????????"
+    ID_FILE_MRU_FILE14      "??????????"
+    ID_FILE_MRU_FILE15      "??????????"
+    ID_FILE_MRU_FILE16      "??????????"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "??????????????\n??????"
+    ID_PREV_PANE            "??????????????\n??????"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "?????????????\n??"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "???????\n??"
+    ID_EDIT_CLEAR_ALL       "?????\n?????"
+    ID_EDIT_COPY            "????????????????????????\n???-"
+    ID_EDIT_CUT             "???????????????????????\n????"
+    ID_EDIT_FIND            "??????????\n??"
+    ID_EDIT_PASTE           "??????????????????\n????"
+    ID_EDIT_REPEAT          "?????????????\n?????"
+    ID_EDIT_REPLACE         "????????????????\n??"
+    ID_EDIT_SELECT_ALL      "?????????\n?????"
+    ID_EDIT_UNDO            "?????????????\n????"
+    ID_EDIT_REDO            "?????????????\n????"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "??? ??????/???\n??? ??????/???"
+    ID_VIEW_STATUS_BAR      "????? ??????/???\n????? ??????/???"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "??????????????"
+    AFX_IDS_SCMOVE          "????????????"
+    AFX_IDS_SCMINIMIZE      "??????????????"
+    AFX_IDS_SCMAXIMIZE      "??????????????"
+    AFX_IDS_SCNEXTWINDOW    "??????????????"
+    AFX_IDS_SCPREVWINDOW    "??????????????"
+    AFX_IDS_SCCLOSE         "????????????????????????????"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "?????????????????"
+    AFX_IDS_SCTASKLIST      "??????????????"
+    IDC_PENSIZESPIN         "????????\n???????"
+    IDC_FRAMEINTSPIN        "?????????????????\n???????????"
+    IDC_VIEW_ZOOMSPIN       "??????\n??????"
+    ID_TBSELECT_FLIP_HORIZONTAL "???? (F11)"
+    ID_TBSELECT_FLIP_VERTICAL "???? (F12)"
+    ID_TBSELECT_NEGATIF     "???? (N)"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_EXPORTGIF       "???????GIF?????\nGIF??????????"
+    ID_FRAME_PREV           "?????????\n??????"
+    ID_FRAME_NEXT           "?????????\n??????"
+    ID_FRAME_DELETE         "?????????\n??????"
+    ID_FRAME_INSERT         "???????????????\n?????????"
+    ID_FRAME_CLEAR          "??????????\n????????"
+    ID_VIEW_TOOLBOX         "??? ????????/???\n??? ????????/???"
+    ID_VIEW_OPTION          "???????????\n????"
+    ID_VIEW_PROPERTY        "?????????????????\n???????????????"
+    ID_VIEW_PLAY            "??????????\n??"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_FRAMEINTCAP         "\n"
+    IDC_FRAMEINTEDIT        "?????????????????\n???????????"
+    ID_TOOL_SELECT          "???&??????????\n???? (F1)"
+    ID_TOOL_PEN             "????\n??? (F2)"
+    ID_TOOL_FILL            "????\n???? (F3)"
+    ID_TOOL_LINE            "?????\n?? (F4)"
+    ID_TOOL_LINESTRIP       "???????\n???? (F5)"
+    ID_TOOL_RECT            "?????\n?? (F7)"
+    ID_TOOL_FILLRECT        "?????????\n?????? (F8)"
+    ID_TOOL_ELLIPSE         "????\n? (F9)"
+    ID_TOOL_FILLELLIPSE     "????????\n????? (F10)"
+    ID_TOOL_PARALINE        "?????? (F6)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_PENSIZECAP          "\n"
+    IDC_PENSIZEEDIT         "????????\n???????"
+    ID_FILE_EXPORTBMP       "??BMP?????\n??BMP??????????"
+    ID_FILE_IMPORTBMP24     "24???BMP?????\n24???BMP????????"
+    ID_DRAW_PREVFRAME       "????????\n????????"
+    ID_DRAW_NEXTFRAME       "????????\n????????"
+    ID_SWAP_COLOR           "??????\n?????? (home)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_VIEW_ZOOMCAP        "\n"
+    IDC_VIEW_ZOOMEDIT       "??????\n??????"
+    ID_VIEW_PLAYSEG         "?????????\n?????????"
+    ID_MASKCOPY             "?????\n????? (NUMPAD3)"
+    ID_TBSELECT_SCALEFREE   "????\n????"
+    ID_TBSELECT_SCALEFIX    "??????\n??????"
+    ID_TBSELECT_ROTATE      "??\n??"
+    ID_TBSELECT_FREE        "????\n????"
+    ID_MOVE_PREV10          "10 ????\n10 ????"
+    ID_MOVE_PREV1           "1 ????\n1 ????"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MOVE_NEXT1           "1 ????\n1????"
+    ID_MOVE_NEXT10          "10 ????\n10 ????"
+    ID_MOVE_START           "?????\n?????"
+    ID_MOVE_END             "?????\n?????"
+    ID_BRUSH_PT0            "????????1\n????????1"
+    ID_BRUSH_PT1            "????????2\n????????2"
+    ID_BRUSH_PT2            "????????3\n????????3"
+    ID_BRUSH_PT3            "????????4\n????????4"
+    ID_BRUSH_PT4            "????????5\n????????5"
+    ID_BRUSH_PT5            "????????6\n????????6"
+    ID_BRUSH_PT6            "????????7\n????????7"
+    ID_BRUSH_PT7            "????????8\n????????8"
+    ID_BRUSH_PT8            "????????9\n????????9"
+    ID_BRUSH_PT9            "????????10\n????????10"
+    ID_BRUSH_PT10           "????????11\n????????11"
+    ID_BRUSH_PT11           "????????12\n????????12"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TOOLBAR             "???????"
+    IDS_STDBAR              "?????"
+    IDS_ANIMATION           "?????????"
+    IDS_SELECTION           "????"
+    IDS_MOVING              "??????"
+    IDS_FILL                "???????"
+    IDS_TIME                "??????"
+    IDS_PEN                 "???"
+    IDS_ERASER              "?????"
+    IDS_SEGMENT             "??????"
+    ID_TEXT                 "???? (T)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "EasyToon 1.9.5 JP\n\nEZToon\nEasyToon (*.ezt)\n.ezt\nEasyToon.Document\nEZToon Document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BRUSH_PT12           "????????13\n????????13"
+    ID_BRUSH_PT13           "????????14\n????????14"
+    ID_BRUSH_PT14           "????????15\n????????15"
+    ID_BRUSH_PT15           "????????16\n????????16"
+END
+
+#endif    // Japonais resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif
+#include "l.jpn\afxres.rc"          // ??????????
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,64 @@
+Raccourcis clavier:
+
+
+Ctrl+N		: Nouvelle animation.
+
+Ctrl+O		: Ouvrir une animation existante.
+
+Ctrl+S		: Enregistrer l'animation en fichier ezt.
+
+Ctrl+Z 
+ou 
+Bouton central de la souris	: Annuler la dernière action.
+
+Ctrl+Y		: Rétablir la dernière action.
+
+Ctrl+X 		: Couper la frame dans le Presse-papiers.
+
+Ctrl+C		: Copier la frame dans le Presse-papiers.
+
+Ctrl+V		: Coller le contenu du Presse-papiers dans la frame actuelle.
+
+Ctrl+I		: Insérer une image en BMP 24 bit de même taille que l'animation.
+
+----->		: Flèche Droite avancer d'une frame et création d'une frame.
+
+<-----		: Flèche Gauche reculer d'une frame.
+
+Inser		: Insérer une nouvelle frame à la position actuelle.
+
+Suppr		: Supprimer la frame actuelle.
+
+Fin		: Effacer la frame actuelle.
+
+Home		: Echanger les couleurs.
+
+Flèche du bas	: Masque.
+
+N		: Négatif.
+
+Barre d'espace	: Lecture/Aperçu de l'animation.
+
+F1		: Rectangle de sélection.
+
+F2		: Crayon.
+
+F3		: Remplissage.
+
+F4		: Ligne.
+
+F5		: Polyligne, au dernier point cliquez deux fois de suite sans bouger pour terminer la polyligne. 
+
+F6		: Lignes parallèles, recliquez sur l'icône pour changer d'angle.
+
+F7		: Rectangle, maintenir la touche SHIFT pour dessiner un carré. 
+
+F8		: Rectangle Plein, maintenir la touche SHIFT pour dessiner un carré plein.
+
+F9		: Ellipse, maintenir la touche SHIFT pour dessiner un cercle.
+
+F10		: Ellipse Pleine, maintenir la touche SHIFT pour dessiner un cercle plein.
+
+F11		: Miroir horizontal.
+
+F12		: Miroir vertical.

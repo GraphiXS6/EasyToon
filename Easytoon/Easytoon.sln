@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasyToon Fr", "Easy\EasyToon.vcproj", "{EF209C3F-E716-4190-8477-BE39C8A5E9B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasyToon En", "EasyEn\EasyToonEn.vcproj", "{BB205530-8B97-4A26-88B0-8AAE391CA005}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasyToon Jp", "EasyJP\EasyJP.vcproj", "{22B85711-A2CD-4AC8-B89B-286B4477945C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Easy|Win32 = Debug Easy|Win32
+		Debug|Win32 = Debug|Win32
+		Release Easy DLL|Win32 = Release Easy DLL|Win32
+		Release Easy Static|Win32 = Release Easy Static|Win32
+		Release|Win32 = Release|Win32
+		ReleaseStatic|Win32 = ReleaseStatic|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.Debug Easy|Win32.ActiveCfg = Debug Easy|Win32
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.Debug Easy|Win32.Build.0 = Debug Easy|Win32
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.Debug|Win32.Build.0 = Debug|Win32
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.Release Easy DLL|Win32.ActiveCfg = Release Easy DLL|Win32
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.Release Easy DLL|Win32.Build.0 = Release Easy DLL|Win32
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.Release Easy Static|Win32.ActiveCfg = Release Easy Static|Win32
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.Release Easy Static|Win32.Build.0 = Release Easy Static|Win32
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.Release|Win32.ActiveCfg = Release|Win32
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.Release|Win32.Build.0 = Release|Win32
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.ReleaseStatic|Win32.ActiveCfg = ReleaseStatic|Win32
+		{EF209C3F-E716-4190-8477-BE39C8A5E9B6}.ReleaseStatic|Win32.Build.0 = ReleaseStatic|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.Debug Easy|Win32.ActiveCfg = Debug|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.Debug Easy|Win32.Build.0 = Debug|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.Debug|Win32.Build.0 = Debug|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.Release Easy DLL|Win32.ActiveCfg = Release|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.Release Easy DLL|Win32.Build.0 = Release|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.Release Easy Static|Win32.ActiveCfg = Release|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.Release Easy Static|Win32.Build.0 = Release|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.Release|Win32.ActiveCfg = Release|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.Release|Win32.Build.0 = Release|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.ReleaseStatic|Win32.ActiveCfg = Release|Win32
+		{BB205530-8B97-4A26-88B0-8AAE391CA005}.ReleaseStatic|Win32.Build.0 = Release|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.Debug Easy|Win32.ActiveCfg = Debug|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.Debug Easy|Win32.Build.0 = Debug|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.Debug|Win32.Build.0 = Debug|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.Release Easy DLL|Win32.ActiveCfg = Release|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.Release Easy DLL|Win32.Build.0 = Release|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.Release Easy Static|Win32.ActiveCfg = Release|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.Release Easy Static|Win32.Build.0 = Release|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.Release|Win32.ActiveCfg = Release|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.Release|Win32.Build.0 = Release|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.ReleaseStatic|Win32.ActiveCfg = Release|Win32
+		{22B85711-A2CD-4AC8-B89B-286B4477945C}.ReleaseStatic|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

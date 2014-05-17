@@ -1,0 +1,64 @@
+Shortcuts keys:
+
+
+Ctrl+N		: New animation.
+
+Ctrl+O		: Open a animation.
+
+Ctrl+S		: Save the animation in ezt format.
+
+Ctrl+Z
+or
+Middle mouse button	: Undo the last action.
+
+Ctrl+Y		: Redo the last action.
+ 
+Ctrl+X		: Cut the frame in the Clipboard.
+
+Ctrl+C		: Copy the frame in the Clipboard.
+
+Ctrl+V		: Paste contents in the Clipboard on the actual frame.
+
+Ctrl+I		: Insert 24 bit BMP image (must have the same size than the animation).
+
+----->		: Right arrow key,  advance frame and create new frame.
+
+<-----		: Left arrow key,   back one frame.
+
+Inser		: Insert new frame in the actual position.
+
+Del		: Delete the actual frame.
+
+End		: Erase the actual frame.
+
+Home		: Swap colors.
+
+Down arrow key	: Mask.
+
+N		: Negative effect.
+
+Space Bar	: Play/Preview of the animation.
+
+F1		: Rectangular selection.
+
+F2		: Pen.
+ 
+F3		: Filling.
+
+F4		: Line.
+
+F5		: Polyline, at the last line click twice without moving to terminate the polyline. 
+
+F6		: Parallel lines, re-click on the icon for change the angle.
+
+F7		: Rectangle, hold SHIFT key to draw a square. 
+
+F8		: Filled Rectangle, hold SHIFT key to draw a filled square.
+
+F9		: Ellipse, hold SHIFT key to draw a circle.
+
+F10		: Filled Ellipse, hold SHIFT key to draw a filled circle.
+
+F11		: Horizontal Mirror.
+
+F12		: Vertical Mirror.
