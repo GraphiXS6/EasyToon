@@ -1,4 +1,4 @@
-// NewOptionDlg.cpp : ƒCƒ“ƒvƒŠƒƒ“ƒe[ƒVƒ‡ƒ“ ƒtƒ@ƒCƒ‹
+// NewOptionDlg.cpp : ï¿½Cï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½[ï¿½Vï¿½ï¿½ï¿½ï¿½ ï¿½tï¿½@ï¿½Cï¿½ï¿½
 //
 
 #include "stdafx.h"
@@ -12,7 +12,7 @@ static char THIS_FILE[] = __FILE__;
 #endif
 
 /////////////////////////////////////////////////////////////////////////////
-// CNewOptionDlg ƒ_ƒCƒAƒƒO
+// CNewOptionDlg ï¿½_ï¿½Cï¿½Aï¿½ï¿½ï¿½O
 
 
 CNewOptionDlg::CNewOptionDlg(CWnd* pParent /*=NULL*/)
@@ -30,9 +30,9 @@ void CNewOptionDlg::DoDataExchange(CDataExchange* pDX)
 	CDialog::DoDataExchange(pDX);
 	//{{AFX_DATA_MAP(CNewOptionDlg)
 	DDX_Text(pDX, IDC_EDIT_HEIGHT, m_nFrameHeight);
-	DDV_MinMaxInt(pDX, m_nFrameHeight, 8, 1024);
+	DDV_MinMaxInt(pDX, m_nFrameHeight, 8, 2048);
 	DDX_Text(pDX, IDC_EDIT_WIDTH, m_nFrameWidth);
-	DDV_MinMaxInt(pDX, m_nFrameWidth, 8, 1024);
+	DDV_MinMaxInt(pDX, m_nFrameWidth, 8, 2048);
 
 	//}}AFX_DATA_MAP
 	DDX_Control(pDX, IDC_EDIT_WIDTH, m_newWidth);
@@ -49,7 +49,7 @@ BEGIN_MESSAGE_MAP(CNewOptionDlg, CDialog)
 END_MESSAGE_MAP()		
 
 /////////////////////////////////////////////////////////////////////////////
-// CNewOptionDlg ƒƒbƒZ[ƒW ƒnƒ“ƒhƒ‰
+// CNewOptionDlg ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½W ï¿½nï¿½ï¿½ï¿½hï¿½ï¿½
 
 
 void CNewOptionDlg::OnPredefinedDimensionClickedRadio(UINT nID)
